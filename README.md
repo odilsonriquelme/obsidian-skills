@@ -1,3 +1,5 @@
+> 🇧🇷 **Versão em português:** veja o [LEIA-ME-PT-BR.md](LEIA-ME-PT-BR.md) para uma explicação completa em português, com um guia por skill.
+
 Agent Skills for use with Obsidian.
 
 These skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code and Codex CLI.

@@ -1,0 +1,54 @@
+REPOSITÓRIO: obsidian-skills
+TIPO: Fork Público — COM PERSONALIZAÇÃO PRÓPRIA (não é só espelho!)
+LINGUAGEM: Markdown (skills) + Shell
+URL (seu fork):    https://github.com/odilsonriquelme/obsidian-skills
+UPSTREAM (fork de): https://github.com/kepano/obsidian-skills (autor: kepano / Obsidian)
+
+⭐ ESTE FORK TEM TRABALHO SEU
+-----------------------------
+Diferente dos outros forks (que são espelhos), AQUI você adicionou conteúdo próprio:
+uma camada completa de TRADUÇÃO/EXPLICAÇÃO EM PORTUGUÊS (BR). Commits seus à frente do upstream:
+   - ed97ec3 "Adiciona explicações em português (BR) das skills"
+   - 9a7deeb "Adiciona link para a versão em português no topo do README"
+Arquivos PT-BR que você criou:
+   LEIA-ME-PT-BR.md (guia geral em português)
+   skills/defuddle/EXPLICACAO-PT-BR.md
+   skills/json-canvas/EXPLICACAO-PT-BR.md
+   skills/obsidian-bases/EXPLICACAO-PT-BR.md
+   skills/obsidian-cli/EXPLICACAO-PT-BR.md
+   skills/obsidian-markdown/EXPLICACAO-PT-BR.md
++ nota no topo do README apontando para o LEIA-ME-PT-BR.md.
+
+DESCRIÇÃO
+---------
+Coleção de Agent Skills para uso com o OBSIDIAN. Seguem a especificação Agent Skills
+(agentskills.io), então funcionam em qualquer agente compatível (Claude Code, Codex CLI).
+Instaláveis via marketplace de plugins do Claude Code.
+
+AS 5 SKILLS (cada uma com SKILL.md em inglês + EXPLICACAO-PT-BR.md seu)
+-----------------------------------------------------------------------
+skills/defuddle/         → extrai conteúdo limpo de páginas web (via Defuddle CLI),
+                           removendo menus/propaganda; salva só o texto relevante.
+                           (PR do upstream: pula .md URLs.)
+skills/obsidian-markdown/→ criar/editar Obsidian Flavored Markdown: wikilinks [[ ]],
+                           embeds ![[ ]], callouts, frontmatter (propriedades), tags.
+                           (Tem references/ com CALLOUTS.md, EMBEDS.md, etc.)
+skills/obsidian-bases/   → criar/editar Obsidian Bases (.base): views de banco de dados
+                           de notas com filtros, fórmulas e sumários.
+skills/obsidian-cli/     → interagir com o vault via CLI (ler, criar, buscar notas) e
+                           desenvolver/depurar plugins e temas.
+skills/json-canvas/      → criar/editar arquivos JSON Canvas (.canvas): mapas visuais,
+                           fluxogramas e diagramas de conexão. (Tem references/EXAMPLES.md.)
+
+RELEVÂNCIA PESSOAL
+------------------
+MUITO relevante: você usa o Obsidian como "Segundo Cérebro" (vault em
+/Users/rico/Documents/segundo_cerebro/). Estas skills são exatamente as que aparecem
+disponíveis no seu Claude Code (defuddle, json-canvas, obsidian-bases, obsidian-cli,
+obsidian-markdown). Este fork com a tradução PT-BR é seu material de apoio para usá-las.
+
+OBSERVAÇÃO (fork)
+-----------------
+O código das skills (SKILL.md) é do kepano — manter sincronizado com o upstream quando
+houver melhorias (git pull upstream main), preservando seus arquivos PT-BR. Push deste
+repo vai só para o SEU fork.
